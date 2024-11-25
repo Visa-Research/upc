@@ -1,0 +1,17 @@
+logging="INFO"
+host-whitelist=["*"]
+
+# rpc
+rpc-http-enabled=true
+rpc-http-host="0.0.0.0"
+rpc-http-port=8545
+rpc-http-cors-origins=["*"]
+rpc-http-apis=["ETH","NET","WEB3","ADMIN"]
+
+min-gas-price=0
+
+miner-enabled=true
+miner-coinbase="0x0000000000000000000000000000000000000000"
+
+genesis-file="/opt/besu/genesis.json"
+revert-reason-enabled=true
